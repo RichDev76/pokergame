@@ -13,7 +13,7 @@ import static java.util.stream.Collectors.groupingBy;
 import static org.demo.simple.hand.HandRankingCategory.*;
 
 /***************************************************************************************
- *    Title: Guide to Spring Boot REST API Error Handling
+ *    Title: The simplest algorithm for poker hand evaluation
  *    Author: gdejohn
  *    Date: 2023-01-07
  *    Code version: 1.0
