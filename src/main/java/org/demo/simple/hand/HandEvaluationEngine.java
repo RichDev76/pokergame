@@ -65,7 +65,7 @@ public class HandEvaluationEngine {
         return cards.stream().map(Card::getSuit).distinct().count() == 1;
     }
 
-    /*
+    /**
      * In order to determine whether an ace high straight exists('A','K','Q','J','10'),
      * 1. first check if the 1st and last ranks are 'A' and 'K' respectively
      * 2. (a) If they are then make sure the sum total of the value of all the cards in the ranks = 47

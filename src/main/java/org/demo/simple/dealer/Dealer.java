@@ -31,7 +31,8 @@ public class Dealer implements IDealerAction {
         return dealHand(DEFAULT_HAND_SIZE);
     }
 
-    private Hand dealHand(int handSize) {
+    @Override
+    public Hand dealHand(int handSize) {
         Hand hand = new Hand(handSize);
         List<Card> cards = hand.getCards();
         for (int i = 0; i < handSize; i++) {
